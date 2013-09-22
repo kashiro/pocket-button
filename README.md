@@ -1,12 +1,12 @@
-# &lt;my-element&gt;
+# &lt;pocket-button&gt;
 
-TODO: Write a project description
+Web Component wrapper for Pocket Button using Polymer
 
-> Maintained by [Your Name](https://github.com/yourname).
+> Maintained by [kashiro](https://github.com/kashiro).
 
 ## Demo
 
-> [Check it live](http://customelements.github.io/boilerplate-element).
+> [Check it live](http://kashiro.github.io/pocket-button).
 
 ## Usage
 
@@ -19,22 +19,25 @@ TODO: Write a project description
 2. Import Custom Element:
 
 	```html
-	<link rel="import" href="src/my-element.html">
+	<link rel="import" href="src/pocket-button.html">
 	```
 
 3. Start using it!
 
 	```html
-	<my-element></my-element>
+	<pocket-button></pocket-button>
 	```
 
 ## Options
 
-Attribute  | Options                   | Default             | Description
----        | ---                       | ---                 | ---
-`foo`      | *string*                  | `bar`               | Lorem ipsum
-`bar`      | `abc`, `def`, `ghi` 	   | `foo`               | Lorem ipsum
-`height`   | *int*                     | `100`               | Lorem ipsum
+Attribute  | Options                         | Default             | Description
+---        | ---                             | ---                 | ---
+`count`    | `none`, `horizontal`, `vertical`| `none`              | 
+`lang`     | `en` 	                     | `en`                |
+`save-url` | *String*                        | `undefined`         | url to save
+`align`    | `right`, `left`                 | `left`              | how the button will align inside of the button's iframe
+
+more option [here](http://getpocket.com/publisher/button_docs)
 
 
 ## Contributing
@@ -47,7 +50,7 @@ Attribute  | Options                   | Default             | Description
 
 ## History
 
-* v0.0.1 August 19, 2013
+* v0.0.1 September 23, 2013
 	* Started project using [boilerplate-element](https://github.com/customelements/boilerplate-element)
 
 ## License
