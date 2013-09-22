@@ -1,19 +1,21 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<meta charset="UTF-8">
-	<title>&lt;my-element&gt;</title>
+  <meta charset="UTF-8">
+  <title>&lt;pocket-button&gt;</title>
 
-	<!-- Importing Web Component's Polyfill -->
-	<script src="//cdnjs.cloudflare.com/ajax/libs/polymer/0.0.20130816/polymer.min.js"></script>
+  <!-- Importing Web Component's Polyfill -->
+  <script src="//cdnjs.cloudflare.com/ajax/libs/polymer/0.0.20130905/polymer.min.js"></script>
 
-	<!-- Importing Custom Elements -->
-	<link rel="import" href="src/my-element.html">
+  <!-- Importing Custom Elements -->
+  <link rel="import" href="src/pocket-button.html">
 </head>
 <body>
 
-	<!-- Using Custom Elements -->
-	<my-element></my-element>
+  <!-- Using Custom Elements -->
+  <pocket-button count="none"></pocket-button>
+  <pocket-button count="horizontal"></pocket-button>
+  <pocket-button count="vertical"></pocket-button>
 
 </body>
 </html>
