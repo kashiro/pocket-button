@@ -6,7 +6,7 @@ Web Component wrapper for Pocket Button using Polymer
 
 ## Demo
 
-> [Check it live](http://kashiro.github.io/pocket-button).
+> [Check it live](http://kashiro.github.io/pocket-button/index.html).
 
 ## Usage
 
@@ -32,7 +32,7 @@ Web Component wrapper for Pocket Button using Polymer
 
 Attribute  | Options                         | Default             | Description
 ---        | ---                             | ---                 | ---
-`count`    | `none`, `horizontal`, `vertical`| `none`              | 
+`count`    | `none`, `horizontal`, `vertical`| `none`              |
 `lang`     | `en` 	                     | `en`                |
 `save-url` | *String*                        | `undefined`         | url to save
 `align`    | `right`, `left`                 | `left`              | how the button will align inside of the button's iframe
