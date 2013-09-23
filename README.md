@@ -8,6 +8,16 @@ Web Component wrapper for Pocket Button using Polymer
 
 > [Check it live](http://kashiro.github.io/pocket-button/index.html).
 
+## Dependency
+
+* [Polymer](http://www.polymer-project.org/)
+
+## Browser Compatibility
+
+Depend on Polymer's [Browser Compatibility](http://www.polymer-project.org/compatibility.html)
+
+* 2013/09 : support modern browser exclude IE
+
 ## Usage
 
 1. Import Web Components' polyfill:
