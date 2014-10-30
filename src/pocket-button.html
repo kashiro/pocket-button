@@ -1,12 +1,12 @@
+<link rel="import" href="../bower_components/polymer/polymer.html">
 <polymer-element name="pocket-button" attributes="count lang save-url align">
-
   <script>
-    Polymer('pocket-button', {
+    Polymer({
       'count'   : 'none',
       'lang'    : 'en',
       'save-url': undefined,
       'align'   : 'left',
-      created: function(){
+      ready: function(){
         this.onCreated();
       },
       onCreated: function(){
@@ -16,18 +16,16 @@
       loadLib: function(){
         var d = document,
             i = 'pocket-btn-js',
-            j = d.createElement("script"),
-            w;
+            j = d.createElement("script");
         if(!d.getElementById(i)){
           j.id=i;
           j.src="https://widgets.getpocket.com/v1/j/btn.js?v=1";
-          w = d.getElementById(i);
           d.body.appendChild(j);
         }
       },
       createBtn: function(){
         var d = document,
-            label = 'pocket',
+			label = 'pocket',
             cls = 'pocket-btn',
             count = this.count,
             lang = this.lang,
@@ -43,7 +41,7 @@
         if(url){
           a.setAttribute('data-save-url', url);
         }
-        d.body.appendChild(a);
+		d.body.appendChild(a);
       }
     });
   </script>
